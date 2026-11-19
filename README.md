@@ -1,3 +1,6 @@
+
+
+
 # Song Analyzer
 
 A Windows desktop app for piano transcribers and arrangers. Open a song and it works out the key, tempo, time signature, beats and chords, splits the song into six instruments, and transcribes each one to editable MIDI with a model chosen for that instrument. A native audio engine plays the song and the MIDI together, slowed down, transposed or looped, under a waveform, a chord strip and a piano roll that share one timeline.
@@ -13,6 +16,8 @@ All three videos were recorded from the running app: every frame is the real win
 ### Feature tour
 
 [![Feature tour: soloing the separated stems of Porter Robinson's Something Comforting in the app](assets/feature-tour-preview.gif)](assets/feature-tour.mp4)
+
+https://github.com/user-attachments/assets/0814459d-3e0e-421d-a132-907bd8210922
 
 **[▶ Watch the feature tour with sound (1 min 43 s, MP4)](assets/feature-tour.mp4)**
 
@@ -35,6 +40,12 @@ Porter Robinson, *Something Comforting*, in ten short scenes that cross-fade fro
 |---|---|
 | [![Transcription demo: Mitsukiyo, メロアのパティスリ](assets/transcription-demo-melo-preview.gif)](assets/transcription-demo-melo.mp4) | [![Transcription demo: Synthion, Blossom](assets/transcription-demo-blossom-preview.gif)](assets/transcription-demo-blossom.mp4) |
 | **[▶ Watch with sound (31 s, MP4)](assets/transcription-demo-melo.mp4)**: the same ten seconds three times, as the original, as the transcription alone, then both together. | **[▶ Watch with sound (24 s, MP4)](assets/transcription-demo-blossom.mp4)**: one take that switches from the original to the transcription alone, then to both. |
+
+
+https://github.com/user-attachments/assets/6abfafea-8874-4c73-bd4b-30607921b706
+
+https://github.com/user-attachments/assets/550a5039-ad21-4dc5-ad79-1f5da22ab735
+
 
 Every instrument was separated and transcribed by the app, with no hand correction. *Transcription only* means the song is muted: every note you hear is MIDI the app wrote, played through virtual instruments. *メロアのパティスリ* is instrumental, so it has no vocal part.
 
