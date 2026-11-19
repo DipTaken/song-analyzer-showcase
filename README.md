@@ -6,17 +6,37 @@ Everything runs locally on the user's machine.
 
 > **The source code is private.** This repo is a showcase: what the app does, how it is built, and how I evaluate it.
 
-## Transcription demo (with sound)
+## Demos (with sound)
 
-[![Demo: the transcription of two songs playing in the app, switching between the original song, the transcription alone, and both](assets/demo-preview.gif)](assets/transcription-demo.mp4)
+All three videos were recorded from the running app: every frame is the real window, and the sound is the app's own audio engine output, the same mix it sends to the speakers. A card in the side panel says what you are watching.
 
-**[▶ Watch the demo with sound (1 min 52 s, MP4)](assets/transcription-demo.mp4)**
+### Feature tour
 
-Two songs, every instrument separated and transcribed by the app, with no hand correction. The card on the right says what you are hearing:
+[![Feature tour: soloing the separated stems of Porter Robinson's Something Comforting in the app](assets/feature-tour-preview.gif)](assets/feature-tour.mp4)
 
-- **Original song**: the recording, with the transcription muted.
-- **Transcription only**: the song is muted. Every note you hear is MIDI the app wrote, played through virtual instruments.
-- **Song + transcription**: both together, so you can hear where they agree.
+**[▶ Watch the feature tour with sound (1 min 43 s, MP4)](assets/feature-tour.mp4)**
+
+Porter Robinson, *Something Comforting*, in ten short scenes that cross-fade from one part of the song to the next:
+
+1. **Analysis**: key, tempo, beats, bars and chords, detected automatically.
+2. **Stems**: the drums, bass and synths soloed one after another, then the full mix.
+3. **Vocals only**: the vocal stem soloed, an a cappella.
+4. **Instrumental**: the vocal stem muted, a backing track.
+5. **Slow down**: 1x, 0.75x, then 0.5x while it plays, at the same pitch.
+6. **Transpose**: up two semitones live; the key and chord names follow.
+7. **Loop and metronome**: a two-bar loop with a click that follows the song's own beats.
+8. **Meter change**: the bar grid follows the song from 4/4 into 6/8.
+9. **Transcription**: the song muted, so only the app's MIDI plays.
+10. **Chord Overview**: the whole song as a chord chart that follows playback.
+
+### Transcription accuracy
+
+| Mitsukiyo, *メロアのパティスリ* (1:16 to 1:26) | Synthion, *Blossom* (1:57 to 2:19) |
+|---|---|
+| [![Transcription demo: Mitsukiyo, メロアのパティスリ](assets/transcription-demo-melo-preview.gif)](assets/transcription-demo-melo.mp4) | [![Transcription demo: Synthion, Blossom](assets/transcription-demo-blossom-preview.gif)](assets/transcription-demo-blossom.mp4) |
+| **[▶ Watch with sound (31 s, MP4)](assets/transcription-demo-melo.mp4)**: the same ten seconds three times, as the original, as the transcription alone, then both together. | **[▶ Watch with sound (24 s, MP4)](assets/transcription-demo-blossom.mp4)**: one take that switches from the original to the transcription alone, then to both. |
+
+Every instrument was separated and transcribed by the app, with no hand correction. *Transcription only* means the song is muted: every note you hear is MIDI the app wrote, played through virtual instruments. *メロアのパティスリ* is instrumental, so it has no vocal part.
 
 | Instrument | Transcribed by | Played back through |
 |---|---|---|
@@ -27,7 +47,7 @@ Two songs, every instrument separated and transcribed by the app, with no hand c
 | Drums | DrumSep (kick, snare, toms, hi-hat, cymbals) | General MIDI SoundFont |
 | Vocals | RMVPE pitch tracking, segmented into notes | Pipa (VST3) |
 
-Songs: Mitsukiyo, *メロアのパティスリ* (0:39 to 2:05), and Synthion, *Blossom* (1:57 to 2:19). The video was recorded from the running app: every frame is the real window, and the sound is the app's own audio engine output, the same mix it sends to the speakers.
+The feature tour's transcription scene uses the same engines and instruments.
 
 ## Screenshots
 
